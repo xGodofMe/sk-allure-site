@@ -1,5 +1,3 @@
-import { CalendarIcon, InstagramIcon } from "lucide-react";
-
 export default function SKAllure() {
   return (
     <main className="min-h-screen bg-white text-gray-800 font-serif">
@@ -58,7 +56,7 @@ export default function SKAllure() {
           target="_blank"
           className="inline-flex items-center text-pink-600 hover:text-pink-800 text-lg"
         >
-          <InstagramIcon className="mr-2" /> Follow us on Instagram
+          Follow us on Instagram
         </a>
       </section>
 
