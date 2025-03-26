@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/button";
 import { CalendarIcon, InstagramIcon } from "lucide-react";
 
 export default function SKAllure() {
@@ -15,12 +14,16 @@ export default function SKAllure() {
           <div className="border rounded-2xl p-4 shadow">
             <h3 className="text-xl font-medium mb-2">Manicure</h3>
             <p className="mb-2">$50 — Includes cuticle care, shaping, polish, and massage.</p>
-            <Button className="w-full">Book Now</Button>
+            <button className="bg-pink-500 hover:bg-pink-600 text-white py-2 px-4 rounded-xl w-full">
+              Book Now
+            </button>
           </div>
           <div className="border rounded-2xl p-4 shadow">
             <h3 className="text-xl font-medium mb-2">Pedicure</h3>
             <p className="mb-2">$50 — Includes exfoliation, nail care, massage, and polish.</p>
-            <Button className="w-full">Book Now</Button>
+            <button className="bg-pink-500 hover:bg-pink-600 text-white py-2 px-4 rounded-xl w-full">
+              Book Now
+            </button>
           </div>
         </div>
       </section>
